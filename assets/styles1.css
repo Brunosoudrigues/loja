@@ -1,0 +1,180 @@
+body {
+    margin: 0%;
+}
+
+.main-login {
+    width: 100vw;
+    height: 100vh;
+    background: #00285f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-login>h1 {
+    color: #f78b00;
+}
+
+.left-img {
+    width: 35vw;
+}
+
+.right-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #043a86;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card-login>h1 {
+    color: #f0951e;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield>input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #023c8b;
+    color: #e69731;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield>label {
+    color: #e69731;
+    margin-bottom: 10 px;
+}
+
+.textfield>input::placeholder {
+    color: #e2993a;
+}
+.alteracao{
+    color: white;
+}
+
+.back{
+  color:#f0951e ;
+   text-transform: uppercase;
+
+}
+.btn-update{
+   width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #043a86;
+    background: #f0951e;
+    cursor: pointer; 
+}
+.btn-login {
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #043a86;
+    background: #f0951e;
+    cursor: pointer;
+}
+
+#message {
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: 0cm;
+    border-radius: 8px;
+    outline: 0cm;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #f0951e;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Menu de login</title>
+    <link rel="stylesheet" href="assets/styles2.css" />
+</head>
+
+<body>
+    
+    <div class="main-login">
+        <div class="left-login">
+             <h1>Altere seu Perfil</h1>
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <h1 class="white">Redefinir conta</h1>
+                <div class="textfield">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" id="usuario" placeholder="Usuário">
+                </div>
+                <div class="textfield">
+                    <label for="senhaalterada">Senha</label>
+                    <input type="password" id="senha" placeholder="Senha">
+                </div>
+                <button class="btn-alterar">ALTERAR</button>
+    
+                <div id="message">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+    
+    
